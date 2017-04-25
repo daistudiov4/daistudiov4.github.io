@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+	<title>DAISTUDIO</title>
+	<script type="text/javascript">
+window.onload=function() {
+  horloge('div_horloge');
+};
+
+function horloge(el) {
+  if(typeof el=="string") { el = document.getElementById(el); }
+  function actualiser() {
+    var date = new Date();
+    var str = date.getHours();
+    str += ''+(date.getMinutes()<10?'0':'')+date.getMinutes();
+    str += ''+(date.getSeconds()<10?'0':'')+date.getSeconds();
+    el.innerHTML = str;
+  }
+  actualiser();
+  setInterval(actualiser,1000);
+}
+</script>
+
+
+</head>
+<body class="loading">
+<!-- CONTENUE -->
+
+	<a href="#" class="control_next">>></a>
+	<a href="#" class="control_prev"><</a>
+<div class="contain">
+	<div class="anim"></div>
+        <div id="slider">
+
+          <ul>
+            <li class="slid" id="slide1">
+              <p class="titre">Pyramid<br>3D</p>
+
+
+							<div class="backp"><div class="line"></div><p class="p">+</p><p class="plusprojet">Info</p></div>
+              <h1 class="paginnu">1</h1><p class="pagin"> / 4 </p>
+              <div id="moitier" class="moitier">
+
+
+
+              <a href="#"><h1 class="pluss">
+
+                <div class="texte">
+                  <h1 class="titreprojet">Pyramid 3d</h1>
+
+                  <p class="des">Hello bitch <br> Lorem ipsum dolor sit amet, consectetur adipisicing
+                   elit. Totam consectetur, doloribus eaque quas quia voluptate
+                   , eos suscipit voluptas ex, repudiandae, inventore ipsum impedit
+                    eum dicta. Accusamus reprehenderit dolore similique nobis.</p>
+
+										<div class="voir">
+											<h1 class="titrevoir">Voir Projet<sup>1/10</sup></h1>
+											<p class="pvoir">3D Work</p>
+											<img src="img/fleche.svg" alt="" class="fleche">
+										</div>
+
+
+
+                    <div class="art">
+                      <h2 class="artist">Rémi clauss</h2>
+                      <p>Auteur</p>
+                    </div>
+
+                  </div>
+              </h1></a>
+              </div>
+
+            </li>
+
+            <li class="slid" id="slide2">
+              <p class="titre" id="titre2">MODUL<br></p>
+							<div class="backp"><div class="line"></div><p class="p">+</p><p class="plusprojet">Info</p></div>              <h1 class="paginnu">2</h1><p class="pagin"> / 4 </p>
+              <div id="moitier2" class="moitier" id="moitier2">
+
+              <a href="#"><h1 class="pluss">
+
+                <div class="texte">
+                    <h1 class="titreprojet">Modul</h1>
+
+                  <p class="des"><h3>Design végétal</h3><br> Modul est une entreprise de
+															décoration végétale
+												d’intérieur, centrée principalement sur le commerce B2B.
+												Que cela soit par l’utilisation de
+												végétaux naturels,
+												d’illusions ou de végétaux stabilisés, Modul est là pour
+												insérer la nature dans les lieux de travail</p>
+										<a href="modul.html">
+										<div class="voir">
+
+											<h1 class="titrevoir">Voir Projet<sup>1/10</sup></h1>
+											<p class="pvoir">Identité visuelle</p>
+											<img src="img/fleche.svg" alt="" class="fleche">
+
+										</div>
+										</a>
+
+                    <div class="art">
+                      <h2 class="artist">Rémi clauss</h2>
+                      <p>Auteur</p>
+                    </div>
+
+                  </div>
+              </h1></a>
+              </div>
+
+            </li>
+
+
+            <li class="slid" id="slide3">
+              <p class="titre" id="titre3">WERK<br>Kûtchen</p>
+							 <div class="backp"><div class="line"></div><p class="p">+</p><p class="plusprojet">Info</p></div>
+              <h1 class="paginnu">3</h1><p class="pagin"> / 4 </p>
+              <div id="moitier3" class="moitier" id="moitier3">
+
+              <a href="#"><h1 class="pluss">
+
+                <div class="texte">
+                    <h1 class="titreprojet">Werk kutchen</h1>
+
+                  <p class="des">Hello bitch <br> Lorem ipsum dolor sit amet, consectetur adipisicing
+                   elit. Rerum saepe quis minima totam minus corporis animi
+                   , vel labore, maiores pariatur consectetur provident est cupiditat
+                   e atque dolore amet voluptate, quisquam temporibus!</p>
+									 <div class="voir">
+										 <h1 class="titrevoir">Voir Projet<sup>1/10</sup></h1>
+										 <p class="pvoir">3D Work</p>
+										 <img src="img/fleche.svg" alt="" class="fleche">
+									 </div>
+
+                   <div class="art">
+                     <h2 class="artist">Rémi clauss</h2>
+                     <p>Auteur</p>
+                   </div>
+
+                 </div>
+              </h1></a>
+              </div>
+
+            </li>
+
+
+            <li class="slid" id="slide4">
+              <p class="titre" id="titre4">DAI<br>STUDIO</p>
+							<div class="backp"><div class="line"></div><p class="p">+</p><p class="plusprojet">Info</p></div>
+              <h1 class="paginnu">4</h1><p class="pagin"> / 4 </p>
+              <div id="moitier4" class="moitier" id="moitier4">
+
+
+              <a href="#"><h1 class="pluss">
+
+                <div class="texte">
+                    <h1 class="titreprojet">Daistudio</h1>
+
+                  <p class="des">Hello bitch <br> Lorem ipsum dolor sit amet, consectetur adipisicing
+                   elit. Officiis possimus illum nulla omnis eum unde dolore aperiam
+                   , voluptatem quae beatae ullam, laborum, mollitia magni corrupt
+                   i explicabo. Ducimus sapiente, possimus a?</p>
+									 <div class="voir">
+										 <h1 class="titrevoir">Voir Projet<sup>1/10</sup></h1>
+										 <p class="pvoir">3D Work</p>
+										 <img src="img/fleche.svg" alt="" class="fleche">
+									 </div>
+
+                   <div class="art">
+                     <h2 class="artist">Rémi clauss</h2>
+                     <p>Auteur</p>
+                   </div>
+
+
+                 </div>
+              </h1></a>
+              </div>
+
+
+
+            </li>
+          </ul>
+        </div>
+</div>
+<!-- FIN CONTENUE -->
+
+
+
+<!-- TOP BAR -->
+	<div class="topbar">
+    <a href="index.html"><h1 class="logo">Rémi Clauss</h1></a>
+    <div id="div_horloge"></div>
+	</div>
+<!-- FIN TOP BAR -->
+
+
+<!-- BOTTOM BAR -->
+	<div class="bottombar">
+    <div class="logoresaux">
+        <a href="https://www.facebook.com/remi.clauss" target="_blank"><li id="lilogo" class="logo-facebook">
+          <img class="logo-facebook" src="img/logo facebook.svg" stroke="#000" fill="#000000" width="30px" height="20px" alt=""></li></a>
+
+        <a href="https://twitter.com/PuLse_DaiZ" target="_blank"><li id="lilogo" class="logo-twitter">
+          <img class="logo-twitter" src="img/twitter-logo-silhouette.svg" width="30px" height="20px" alt=""></li></a>
+
+        <a href="https://www.instagram.com/remiclauss/" target="_blank"><li id="lilogo" class="logo-instagram">
+          <img class="logo-instagram" src="img/logo instagram.svg" width="30px" height="20px" alt=""></li></a>
+
+        <a href="https://www.linkedin.com/in/r%C3%A9mi-clauss-0549a4129/" target="_blank"><li id="lilogo" class="logo-linkdin">
+          <img class="logo-linkdin" src="img/linkedin-logo.svg" width="30px" height="20px" alt=""></li></a>
+
+    </div>
+    <div class="langue">
+      <li class="fran">fran</li>
+      <li class="ang">Eng</li>
+    </div>
+
+  </div>
+	<!-- FIN BOTTOM BAR -->
+
+
+<!-- RIGHT BAR -->
+  <div class="rightbar">
+    <div class="navigation">
+      <a href="index.html"><div class="accueil">Accueil</div></a>
+      <a href="portfolio.html"><div class="portfolio">Portfolio</div></a>
+      <a href="about.html"><div class="about">About</div></a>
+    </div>
+
+    <div class="trait"></div>
+  </div>
+
+	<!-- FIN RIGHT BAR -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/slider.js">
+
+	</script>
+	<script type="text/javascript">
+	function init() {
+				var idx = 0;
+				[].slice.call(document.querySelectorAll('a.tilter')).forEach(function(el, pos) {
+					idx = pos%2 === 0 ? idx+1 : idx;
+					new TiltFx(el, tiltSettings[idx-1]);
+				});
+			}
+
+
+
+			</script>
+
+
+
+</body>
+</html>

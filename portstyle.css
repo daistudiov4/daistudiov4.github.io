@@ -1,0 +1,40 @@
+
+.contain {
+  background-color: #efefef;
+  overflow: hidden;
+  margin: 50px;
+  top: 0;
+  font-family: Roboto;
+  /* margin-bottom: 0px !important; */
+  position: relative;
+  height: 4807px;
+  transition: .5s cubic-bezier(0.63, 0.01, 0.28, 0.99);
+  bottom: 50px;
+  animation: slidecont .3s cubic-bezier(1, 0.04, 0.58, 1);
+}
+
+.topbar{
+  background-color: #fff;
+}
+
+.bottombar{
+  background-color: #fff;
+
+}
+
+a{
+  color: #000000 !important;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none !important;
+  color: #0040ff !important;
+}
+
+.titrepage{
+  font-family: Geomanist;
+  position: relative;
+  font-size: 80px;
+  font-weight: bold;
+  margin-left: 100px;
+}

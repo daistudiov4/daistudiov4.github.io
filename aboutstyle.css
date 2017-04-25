@@ -1,0 +1,1255 @@
+
+
+.contain {
+  background-color: #efefef;
+  overflow: hidden;
+  margin: 0px;
+  font-family: Roboto;
+  margin-bottom: 0px !important;
+  position: relative;
+  height: 5807px;
+  transition: .5s cubic-bezier(0.63, 0.01, 0.28, 0.99);
+  bottom: 50px;
+}
+
+.contain {}
+
+.pp{
+	background-image: url(img/PP.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	width: 49%;
+	height: 100%;
+	float: left;
+	animation: slidepp .8s cubic-bezier(1, 0.04, 0.58, 1);
+}
+
+
+@keyframes slidepp {
+
+  from{
+    width: 100%;
+  }
+
+  to{
+		width: 49%;
+  }
+
+}
+
+
+
+.presmoi{
+	float: right;
+	width: 40%;
+	margin-right: 92px;
+	margin-top: 241px;
+}
+
+.bar{
+	position: relative;
+	width: 25px;
+	top: 10px;
+	height: 4px;
+	background-color: #1F50B2;
+	animation: slideb 1.5s cubic-bezier(1, 0.04, 0, 0.98);
+}
+
+
+@keyframes slideb {
+
+  from{
+    width: 100%;
+  }
+
+  to{
+		width: 25px;
+  }
+
+}
+
+
+
+
+.moi {
+    position: relative;
+    width: 100%;
+    height: 1200px;
+}
+
+#etudetitre{
+  position: relative;
+  top: 80px;
+  width: 135px;
+  height: 135px;
+  left: 195px;
+  font-weight: bold;
+  font-size: 40pt;
+  color: white;
+  font-size: 28pt;
+  background-color: #1F50B2;
+  text-align: center;
+  line-height: 3.5;
+  transition: .5s cubic-bezier(0.63, 0.01, 0.28, 0.99);
+
+}
+.etude{
+	position: relative;
+	width: 100%;
+	height: 960px;
+	background-color: #ffffff;
+	top: -20px;
+}
+
+.line{
+	position: relative;
+	width: 15px;
+	height: 100%;
+	background-image: linear-gradient(to top, #1F50B2 0%, #ffffff 100%);
+	border-radius: 14px;
+	margin-left: 49.5%;
+	margin-top: 174px;
+}
+.line2{
+	position: absolute;
+	width: 15px;
+	height: 85%;
+	background-image: linear-gradient(to top, #1F50B2 0%, #ffffff 100%);
+	border-radius: -16px;
+	margin-left: 49.5%;
+	margin-top: 0px;
+}
+
+.puce1{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background-color: #1F50B2;
+	border-radius: 100%;
+	right: 2px;
+	top: 105px;
+}
+
+.esd{
+	width: 8866%;
+	position: relative;
+	height: 201px;
+	right: 646px;
+	/* background-color: #b1b1b1; */
+}
+
+.ecole{
+	position: relative;
+	float: left;
+	padding: 2em;
+	line-height: 1.5;
+	width: 38%;
+	height: 68%;
+	right: 0px;
+	border-radius: 4px;
+	/* background-color: #f1f1f1; */
+}
+
+.liage{
+	position: relative;
+	float: right;
+	width: 20%;
+	height: 4%;
+	top: 44%;
+	right: -49px;
+	/* border-radius: 4px; */
+	background-color: #000000;
+}
+
+.diplome{
+	line-height: 3;
+	position: relative;
+	float: right;
+	left: 0px;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	/* position: relative; */
+	/* float: left; */
+	padding: 2em;
+	width: 38%;
+	height: 68%;
+	border-radius: 4px;
+}
+
+.presecole{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-left: 20px;
+}
+
+.presdiplome{
+	position: relative;
+	width: auto;
+	height: 100%;
+	/* margin-left: 20px; */
+	margin: 0 auto;
+	top: 16%;
+	text-align: left;
+	color: #1F50B2;
+}
+
+.puce1-1{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background-color: #e2e2e2;
+	border-radius: 100%;
+	top: 44%;
+	left: 55%;
+}
+
+.puce1-2{
+	position: relative;
+	width: 12px;
+	height: 12px;
+	background-color: #ffffff;
+	border-radius: 100%;
+	top: 44%;
+	right: 68px;
+}
+
+
+
+
+.puce13{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background-color: #1F50B2;
+	border-radius: 100%;
+	right: 2px;
+	top: 239px;
+}
+
+.conde{
+  top: 150px;
+  width: 8866%;
+	position: relative;
+	height: 170px;
+	right: 646px;
+}
+
+
+.ecole2{
+	position: relative;
+	float: right;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	/* background-color: #f1f1f1; */
+	position: relative;
+	/* float: left; */
+	padding: 2em;
+	line-height: 1.5;
+	width: 38%;
+	height: 68%;
+	left: 0px;
+	text-align: right;
+	/* border-radius: 4px; */
+}
+
+.liage2{
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 4%;
+	top: 46%;
+	right: 50px;
+	/* border-radius: 4px; */
+	background-color: #f1f1f1;
+	/* position: relative; */
+	/* float: right; */
+	/* width: 20%; */
+	height: 5%;
+	top: 41%;
+	left: -49px;
+	/* border-radius: 4px; */
+	background-color: #000000;
+}
+
+.diplome2{
+	line-height: 3;
+	text-align: right;
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	/* line-height: 3; */
+	/* position: relative; */
+	/* float: right; */
+	right: 0px;
+	padding: 2em;
+	width: 38%;
+	height: 68%;
+	border-radius: 4px;
+}
+
+.presecole2{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-left: 20px;
+}
+
+.presdiplome2{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-right: 20px;
+	color: #1F50B2;
+}
+
+.puce1-12{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background-color: #e0e0e0;
+	border-radius: 100%;
+	top: 44%;
+	right: 575px;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background-color: #e2e2e2;
+	border-radius: 100%;
+	top: 40%;
+	right: -3%;
+}
+
+
+#expetitre{
+  position: relative;
+  top: 60px;
+  width: 160px;
+  height: 160px;
+  left: 195px;
+  font-weight: bold;
+  font-size: 40pt;
+  color: #1F50B2;
+  font-size: 23pt;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 5;
+  transition: .5s cubic-bezier(0.63, 0.01, 0.28, 0.99);
+}
+.experience {
+    position: relative;
+    position: relative;
+    width: 100%;
+    height: 1360px;
+    background-color: #1F50B2;
+    top: -23px;
+    border-radius: 9px;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+.egame{
+  top: 150px;
+  width: 100%;
+  position: relative;
+  height: 170px;
+  right: 0;
+  width: 8866%;
+  position: relative;
+  height: 170px;
+  right: 646px;
+  width: 8866%;
+  position: relative;
+  height: 201px;
+  right: 646px;
+  /* background-color: #b1b1b1; */
+}
+
+.puce14{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background-color: #1F50B2;
+	border-radius: 100%;
+	right: 2px;
+	top: 258px;
+}
+
+
+.entreprise{
+	position: relative;
+	float: left;
+	/* width: 30%; */
+	/* right: -190px; */
+	height: 100%;
+	border-radius: 4px;
+	/* background-color: #1F50B2; */
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	/* background-color: #f1f1f1; */
+	position: relative;
+	float: left;
+	padding: 2em;
+	line-height: 2.5;
+	width: 38%;
+	height: 68%;
+	right: 0px;
+	border-radius: 4px;
+	/* background-color: #f1f1f1; */
+}
+
+.liage3{
+	position: relative;
+	float: right;
+	width: 20%;
+	height: 4%;
+	top: 46%;
+	right: -49px;
+	/* border-radius: 4px; */
+	background-color: #1F50B2;
+	position: relative;
+	float: right;
+	width: 20%;
+	height: 4%;
+	top: 44%;
+	right: -49px;
+	/* border-radius: 4px; */
+	background-color: #000000;
+}
+
+.info{
+	line-height: 3;
+	text-align: left;
+	position: relative;
+	float: right;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	line-height: 4;
+	position: relative;
+	float: right;
+	left: 0px;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	/* position: relative; */
+	/* float: left; */
+	padding: 2em;
+	width: 38%;
+	height: 68%;
+	border-radius: 4px;
+}
+
+.presentre{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-left: 20px;
+}
+
+.presinfo{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-right: 20px;
+	color: #ffffff;
+}
+
+.Unicacces{
+  top: 300px;
+  width: 100%;
+  position: relative;
+  height: 170px;
+  right: 0;
+  width: 8866%;
+  position: relative;
+  height: 170px;
+  right: 646px;
+  /* top: 150px; */
+  width: 8866%;
+  position: relative;
+  height: 170px;
+  right: 646px;
+}
+
+.puce15{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background-color: #1F50B2;
+	border-radius: 100%;
+	right: 2px;
+	top: 390px;
+}
+.liage4{
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 4%;
+	top: 46%;
+	right: 60px;
+	/* border-radius: 4px; */
+	background-color: #1F50B2;
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 4%;
+	top: 46%;
+	right: 50px;
+	/* border-radius: 4px; */
+	background-color: #f1f1f1;
+	/* position: relative; */
+	/* float: right; */
+	/* width: 20%; */
+	height: 5%;
+	top: 41%;
+	left: -49px;
+	/* border-radius: 4px; */
+	background-color: #000000;
+}
+
+.puce1-3{
+	position: relative;
+	width: 12px;
+	height: 12px;
+	background-color: #ffffff;
+	border-radius: 100%;
+	top: 44%;
+	right: -583px;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background-color: #e0e0e0;
+	border-radius: 100%;
+	top: 44%;
+	right: 575px;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background-color: #e2e2e2;
+	border-radius: 100%;
+	top: 40%;
+	right: -2%;
+}
+
+.entreprise2{
+	position: relative;
+	float: left;
+	/* width: 30%; */
+	/* right: -190px; */
+	height: 100%;
+	border-radius: 4px;
+	/* background-color: #1F50B2; */
+	position: relative;
+	float: right;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	/* background-color: #f1f1f1; */
+	position: relative;
+	float: right;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	/* background-color: #f1f1f1; */
+	position: relative;
+	/* float: left; */
+	padding: 2em;
+	line-height: 1.5;
+	width: 38%;
+	height: 68%;
+	left: 0px;
+	text-align: right;
+	/* border-radius: 4px; */
+}
+
+
+
+.info2{
+	/* line-height: 3; */
+	text-align: right;
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	line-height: 2;
+	text-align: right;
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	/* line-height: 3; */
+	/* position: relative; */
+	/* float: right; */
+	right: 0px;
+	padding: 2em;
+	width: 38%;
+	height: 68%;
+	border-radius: 4px;
+}
+
+.presentre2{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-left: 20px;
+}
+
+.presinfo2{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-right: 20px;
+	color: #ffffff;
+}
+
+.militaire{
+  top: 441px;
+  width: 100%;
+  position: relative;
+  height: 170px;
+  right: 0;
+  width: 8866%;
+  position: relative;
+  height: 170px;
+  right: 647px;
+  /* top: 150px; */
+  width: 100%;
+  position: relative;
+  height: 170px;
+  right: 0;
+  width: 8866%;
+  position: relative;
+  height: 170px;
+  right: 646px;
+  width: 8866%;
+  position: relative;
+  height: 201px;
+  right: 646px;
+  /* background-color: #b1b1b1; */
+}
+
+.puce16{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background-color: #1F50B2;
+	border-radius: 100%;
+	right: 2px;
+	top: 546px;
+}
+.liage5{
+	position: relative;
+	float: right;
+	width: 20%;
+	height: 4%;
+	top: 46%;
+	right: -61px;
+	/* border-radius: 4px; */
+	background-color: #1F50B2;
+	position: relative;
+	float: right;
+	width: 20%;
+	height: 4%;
+	top: 46%;
+	right: -49px;
+	/* border-radius: 4px; */
+	background-color: #1F50B2;
+	position: relative;
+	float: right;
+	width: 20%;
+	height: 4%;
+	top: 44%;
+	right: -49px;
+	/* border-radius: 4px; */
+	background-color: #000000;
+}
+
+.puce1-4{
+	position: relative;
+	width: 12px;
+	height: 12px;
+	background-color: #ffffff;
+	border-radius: 100%;
+	top: 44%;
+	left: 60px;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background-color: #e2e2e2;
+	border-radius: 100%;
+	top: 44%;
+	left: -7%;
+}
+
+.entreprise3{
+	position: relative;
+	float: left;
+	/* width: 30%; */
+	/* right: -190px; */
+	height: 100%;
+	border-radius: 4px;
+	/* background-color: #1F50B2; */
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	/* background-color: #f1f1f1; */
+	position: relative;
+	float: left;
+	/* width: 30%; */
+	/* right: -190px; */
+	height: 100%;
+	border-radius: 4px;
+	/* background-color: #1F50B2; */
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	/* background-color: #f1f1f1; */
+	position: relative;
+	float: left;
+	padding: 2em;
+	line-height: 2;
+	width: 38%;
+	height: 68%;
+	right: 0px;
+	border-radius: 4px;
+	/* background-color: #f1f1f1; */
+}
+
+
+
+.info3{
+	/* line-height: 3; */
+	text-align: left;
+	position: relative;
+	float: right;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	line-height: 3;
+	text-align: left;
+	position: relative;
+	float: right;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	line-height: 3;
+	position: relative;
+	float: right;
+	left: 0px;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	/* position: relative; */
+	/* float: left; */
+	padding: 2em;
+	width: 38%;
+	height: 68%;
+	border-radius: 4px;
+}
+
+.presentre3{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-left: 20px;
+}
+
+.presinfo3{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-right: 20px;
+	color: #ffffff;
+}
+
+.logiciel h1{
+  position: relative;
+  font-size: 40px;
+  text-align: center;
+  top: 60px;
+}
+.logiciel{
+  position: absolute;
+  width: 100%;
+  height: 800px;
+}
+
+.ilu{
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  left: 20%;
+  right: 20%;
+  top: 200px;
+}
+
+.logologi{
+  position: relative;
+  width: 70px;
+}
+
+.left{
+  display: block;
+  position: relative;
+  height: 800px;
+  width: 50%;
+  float: left;
+  top: 300px;
+}
+
+.right{
+  position: relative;
+  height: 800px;
+  width: 50%;
+  float: right;
+  top: 300px;
+}
+#logi{
+  margin-left: 130px;
+  margin-bottom: 118px;
+}
+
+#bars{
+  float: right;
+  position: relative;
+  height: 4px;
+  width: 80%;
+  background-color: #ffffff;
+  margin-bottom: 133px;
+  margin-right: 87px;
+  margin-top: 20px;
+  border-radius: 0px;
+}
+
+.bars{
+  float: right;
+  position: relative;
+  height: 800px;
+  width: 40%;
+}
+.competence {
+    position: relative;
+    position: relative;
+    width: 100%;
+    height: 964px;
+    /* background-color: #e0e0e0; */
+    top: -20px;
+}
+
+.moitier{
+  position: relative;
+  width: 50%;
+  height: 922px;
+  background-color: white;
+  float: right;
+  /* top: -42px; */
+  border-radius: 9px 0px 0px 9px;
+}
+
+.sac{
+  background-image: url(img/sac.png);
+  width: 312px;
+  height: 322px;
+  margin: 0 auto;
+  top: 294px;
+  position: relative;
+}
+
+h1#competence {
+    position: relative;
+    top: 84px;
+    left: 100px;
+}
+
+.mephoto{
+  position: relative;
+  width: 50%;
+  height: 857px;
+  background-image: url(img/cv.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+.footer{
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  background-color: #151515;
+  bottom: 0;
+  border-radius: 10px 10px 0px 0px;
+  transition: .4s ease;
+}
+
+
+.progressps{
+  position: relative;
+  height: 100%;
+  background-color: #1F50B2;
+  width: 95%;
+  border-radius: 0px;
+
+}
+
+.progressae{
+  position: relative;
+  height: 100%;
+  background-color: #1F50B2;
+  width: 70%;
+  border-radius: 0px;
+
+}
+
+.progressxd{
+  position: relative;
+  height: 100%;
+  background-color: #1F50B2;
+  width: 80%;
+  border-radius: 0px;
+
+}
+
+.progressfc{
+  position: relative;
+  height: 100%;
+  background-color: #1F50B2;
+  width: 60%;
+  border-radius: 0px;
+
+}
+
+.progresssketch{
+  position: relative;
+  height: 100%;
+  background-color: #1F50B2;
+  width: 60%;
+  border-radius: 0px;
+
+}
+
+.progressilu{
+  position: relative;
+  height: 100%;
+  background-color: #1F50B2;
+  width: 95%;
+  border-radius: 0px;
+
+}
+
+.progressid{
+  position: relative;
+  height: 100%;
+  background-color: #1F50B2;
+  width: 80%;
+  border-radius: 0px;
+
+}
+
+.progresslr{
+  position: relative;
+  height: 100%;
+  background-color: #1F50B2;
+  width: 70%;
+  border-radius: 0px;
+
+}
+
+.progressc4d{
+  position: relative;
+  height: 100%;
+  background-color: #1F50B2;
+  width: 60%;
+  border-radius: 0px;
+
+}
+
+.progressmo{
+  position: relative;
+  height: 100%;
+  background-color: #1F50B2;
+  width: 80%;
+  border-radius: 0px;
+
+}
+
+#bars p{
+  position: relative;
+  left: -94%;
+  top: -12px;
+}
+
+
+hgroup {
+	text-align:center;
+	margin-top: 4em;
+}
+
+/*h1, h3 { font-weight: 300; }
+
+h1 { color: #636363; }
+
+h3 { color: #1F50B2; }*/
+
+form {
+	width: 380px;
+	margin-right: -160px;
+	margin-top: 241px;
+	float: right;
+}
+
+.group {
+	position: relative;
+	margin-bottom: 45px;
+}
+
+input {
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	-webkit-appearance: none;
+	display: block;
+	/* background: #fafafa; */
+	color: #636363;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #757575;
+}
+
+input:focus { outline: none; }
+
+
+/* Label */
+
+label {
+	color: #999;
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 5px;
+	top: 10px;
+	transition: all 0.2s ease;
+}
+
+
+/* active */
+
+input:focus ~ label, input.used ~ label {
+	top: -20px;
+  transform: scale(.75); left: -2px;
+	/* font-size: 14px; */
+	color: #1F50B2;
+}
+
+
+/* Underline */
+
+.bare {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.bare:before, .bar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	background: #1F50B2;
+	transition: all 0.2s ease;
+}
+
+.bare:before { left: 50%; }
+
+.bare:after { right: 50%; }
+
+
+/* active */
+
+input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
+
+
+/* Highlight */
+
+.highlight {
+	position: absolute;
+	height: 60%;
+	width: 100px;
+	top: 25%;
+	left: 0;
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+
+/* active */
+
+input:focus ~ .highlight {
+	animation: inputHighlighter 0.3s ease;
+}
+
+
+/* Animations */
+
+@keyframes inputHighlighter {
+	from { background: #1F50B2; }
+	to 	{ width: 0; background: transparent; }
+}
+
+
+/* Button */
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 12px 24px;
+  margin: .3em 0 1em 0;
+  width: 100%;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  letter-spacing: 1px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #1F50B2;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.button:focus { outline: 0; }
+
+
+/* Button modifiers */
+
+.buttonBlue {
+  background: #1F50B2;
+  text-shadow: 1px 1px 0 rgba(39, 110, 204, .5);
+}
+
+.buttonBlue:hover { background: #1F50B2; }
+
+
+/* Ripples container */
+
+.ripples {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: transparent;
+}
+
+
+/* Ripples circle */
+
+.ripplesCircle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.ripples.is-active .ripplesCircle {
+  animation: ripples .4s ease-in;
+}
+
+
+/* Ripples animation */
+
+@keyframes ripples {
+  0% { opacity: 0; }
+
+  25% { opacity: 1; }
+
+  100% {
+    width: 200%;
+    padding-bottom: 200%;
+    opacity: 0;
+  }
+}
+
+footer { text-align: center; }
+
+footer p {
+	color: #888;
+	font-size: 13px;
+	letter-spacing: .4px;
+}
+
+footer a {
+	color: #1F50B2;
+	text-decoration: none;
+	transition: all .2s ease;
+}
+
+footer a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+.contact{
+  position: relative;
+  top: 100px;
+  left: 80px;
+  font-weight: bold;
+  font-size: 50px;
+  color: #FFF;
+  float: left;
+}
+
+.formulaire{
+  position: relative;
+  top: 100px;
+  right: 80px;
+  font-weight: bold;
+  font-size: 50px;
+  color: #FFF;
+  float: right;
+}
+
+.email{
+  position: relative;
+  top: 190px;
+  left: -213px;
+  color: #FFF;
+  float: left;
+}
+
+textarea {
+    /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+    vertical-align: top;
+
+    /* Pour donner assez d'espace pour entrer du texte */
+    height: 5em;
+
+    /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+       Cela ne marche pas avec tous les navigateurs  */
+    resize: vertical;
+}

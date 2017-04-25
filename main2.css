@@ -1,0 +1,249 @@
+::-webkit-scrollbar {
+    width: 4px;
+		height: 10px;
+    position: absolute;
+
+}
+
+::-webkit-scrollbar:hover {
+    width: 10px;
+		height: 10px;
+
+}
+::-webkit-scrollbar-thumb:vertical {
+    height: 2px;
+    background-color: #1F50B2;
+}
+::-webkit-scrollbar-track-piece{
+
+}
+*{
+	margin: 0;
+}
+
+html, body {
+	margin: 0;
+	background-color: #ffffff;
+	font-family: Geomanist;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.barhaut{
+  position: fixed;
+  width: auto;
+  left: 0px;
+  right: 0px;
+  height: 0px;
+  background-color: white;
+  z-index: -1;
+  transition: .5s cubic-bezier(0.63, 0.01, 0.28, 0.99);
+}
+.topbar{
+  position: fixed;
+  left: 0;
+  line-height: 0.5;
+  text-align: center;
+  width: auto;
+  height: 50px;
+  left: 50px;
+  right: 50px;
+  top: 0px;
+  animation: slidetop 1s cubic-bezier(1, 0.01, 0, 0.98);
+  /* background-color: white; */
+}
+
+
+@keyframes slidetop {
+
+  from{
+    top:-75px;
+  }
+
+  to{
+    top: 0px;
+  }
+}
+
+h1.logo {
+    position: relative;
+    color: black;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 17pt;
+    float: left;
+    width: 128px;
+    top: 20px;
+    margin: 0;
+  }
+
+
+
+	#div_horloge{
+  text-align: center;
+  top: 26px;
+  position: absolute;
+  left: 49%;
+}
+.bottombardesou{
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  /* width: 98%; */
+  /* margin-bottom: 15px; */
+  right: 0px;
+  left: 0px;
+  height: 0px;
+  background-color: white;
+  line-height: 3.5;
+  transition: .5s cubic-bezier(0.63, 0.01, 0.28, 0.99);
+}
+.bottombar{
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: auto;
+  left: 50px;
+  line-height: 3.5;
+  right: 50px;
+  animation: slidebottom 1s cubic-bezier(1, 0.01, 0, 0.98);
+  /* background-color: white; */
+}
+
+
+
+
+
+
+@keyframes slidebottom {
+
+  from{
+    height:0px;
+  }
+
+  to{
+    height: 70px;
+  }
+}
+
+.rightbar{
+  position: fixed;
+  right: 0;
+  top: 50px;
+  bottom: 50px;
+  height: auto;
+  width: 50px;
+  animation: slideright .6s cubic-bezier(1, 0.01, 0.99, 1);
+  /* background-color: #ffffff; */
+}
+
+@keyframes slideright {
+
+  from{
+    right: -75px;
+  }
+
+  to{
+    right: 0px;
+  }
+}
+
+.logoresaux{
+  width: 230px;
+  height: 20px;
+  display: inline-block;
+
+}
+#lilogo{
+    display: inline-block;
+}
+
+li.fran{
+  display: inline-block;
+  margin-right: 30px;
+  text-decoration: line-through;
+}
+
+li.ang{
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+li.ang:hover{
+  text-decoration: line-through;
+  cursor: pointer;
+}
+.langue{
+  display: inline-block;
+  color: black;
+  float: right;
+}
+
+.logo-facebook{
+  width: 21px;
+  height: 20px;
+  margin-right: 40px;
+}
+
+.logo-twitter{
+  width: 25px;
+  height: 20px;
+  margin-right: 40px;
+}
+
+.logo-instagram{
+  width: 21px;
+  height: 20px;
+  margin-right: 40px;
+}
+
+.logo-linkdin{
+  width: 21px;
+  height: 20px;
+}
+
+.trait{
+  width: 1px;
+  position: relative;
+  /* position: relative; */
+  height: 114px;
+  background-color: black;
+  top: 30%;
+  /* margin-top: 209px; */
+  right: -34px;
+  /* transform: translateX(70px); */
+  animation: slidebar 1s cubic-bezier(1, 0.01, 0, 0.99);
+}
+
+@keyframes slidebar {
+
+  0%{
+    top: -100%;
+  }
+
+  {
+    top: 30%;
+  }
+
+}
+
+.accueil{
+  margin-bottom: 100px;
+  margin-top: 27px;
+  transform: rotate(90deg);
+}
+
+
+.portfolio{
+  	transform: rotate(90deg);
+  	margin-bottom: 100px;
+}
+
+.about{
+  transform: rotate(90deg);
+}

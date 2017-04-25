@@ -1,0 +1,535 @@
+
+.contain {
+  background-color: #eeeeee;
+  margin: 0px;
+  /* z-index: -2; */
+  position: relative;
+  height: 3000px;
+  transition: .2s ease;
+  animation: slideproject .5s cubic-bezier(1, 0.01, 0, 0.99);
+}
+
+
+@keyframes slideproject {
+
+  from{
+    width: 0px;
+  }
+
+  to{
+		width: 93%;
+		}
+
+}
+
+.trait{
+  width: 1px;
+  /* position: relative; */
+  height: 120px;
+  background-color: black;
+  margin-top: 391px;
+  margin-right: 89px;
+  transform: translateX(70px);
+}
+
+.title{
+	position: relative;
+	font-size: 100px;
+	font-family: Geomanist;
+	font-weight: bold;
+	margin: 0;
+	transform: translateY(133px);
+	margin-left: 204px;
+	z-index: 20;
+	color: #ff6937;
+}
+
+#titreP1{
+  position: absolute;
+  font-size: 80px;
+  font-family: Geomanist;
+  font-weight: bold;
+  left: -240px;
+  top: 51px;
+}
+
+.projet1{
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  animation: slidepojet 5s;
+}
+
+.presP1{
+  position: absolute;
+  top: 300px;
+  float: left;
+  left: 100px;
+  width: 400px;
+}
+
+.imgP1{
+  float: right;
+  position: relative;
+  width: 400px;
+  height: 500px;
+  background-color: red;
+  background-image: url(img/PRES-3D.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 100px;
+  animation: slideprojet 1s;
+  transition: .2s;
+}
+
+.imgP1:hover{
+  width: 500px;
+}
+
+
+@keyframes slideprojet{
+
+  from{
+    height: 0px;
+  }
+
+  to{
+		height: 500px;
+  }
+
+}
+
+
+
+
+
+.presentation{
+	background-color: #213ad6;
+	width: 100%;
+	margin-top: 0px;
+	height: 400px;
+	color: white;
+	transition: .5s ease;
+	animation: slideproject .6s cubic-bezier(1, 0.01, 0, 0.99);
+	position: relative;
+}
+
+
+.textpres{
+	position: relative;
+	width: 28%;
+	float: left;
+	transform: translateY(90px);
+	margin-left: 321px;
+}
+
+.img1{
+  /*background-color: #146048;
+
+  background-image: url(img/mito_brush_desktop.jpg);*/
+  background-image: url(img/wireframes1.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  width: 400px;
+  height: 552px;
+  margin-top: -73px;
+  float: right;
+  animation: slideimg 1.3s cubic-bezier(1, 0.01, 0, 0.99);
+}
+
+@keyframes slideimg {
+
+  from{
+    height: 0px;
+  }
+
+  to{
+    height: 552px;
+  }
+
+}
+.presentation2{
+	position: relative;
+	z-index: 0;
+	background-image: url(img/PRES-3D.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: -200px;
+	background-color: aqua;
+	width: 100%;
+	height: 100%;
+}
+
+.titleP2{
+  position: absolute;;
+  font-size: 80px;
+  font-family: Geomanist;
+  font-weight: bold;
+  top: -50px;
+  left: 344px;
+}
+
+.projet2{
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  margin-top: 720px;
+}
+
+.presP2{
+  position: relative;
+  top: 300px;
+  float: right;
+  right: -780px;
+  width: 30%;
+}
+
+.imgP2{
+  float: right;
+  right: 620px;
+  position: relative;
+  width: 700px;
+  height: 300px;
+  background-color: red;
+  margin: 100px;
+}
+
+.titleP3{
+  position: relative;
+  font-size: 80px;
+  font-family: Geomanist;
+  font-weight: bold;
+  top: -678px;
+  left: 204px;
+}
+
+.projet3{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  margin-top: 1400px;
+}
+
+.presP3{
+  position: relative;
+  top: 300px;
+  float: right;
+  left: -61px;
+  width: 30%;
+}
+
+.imgP3{
+  float: left;
+  position: relative;
+  width: 186px;
+  height: 300px;
+  background-color: red;
+  margin: 100px;
+}
+.imgP3-2{
+  float: left;
+  position: relative;
+  width: 186px;
+  height: 300px;
+  left: 252px;
+  top: -95px;
+  background-color: red;
+  /* margin: 100px; */
+}
+.imgP3-3{
+  float: left;
+  position: relative;
+  width: 186px;
+  height: 571px;
+  left: 506px;
+  top: -416px;
+  background-color: red;
+  /* margin: 100px; */
+}
+
+.pandoratitle {
+    position: relative;
+    float: right;
+    right: 175px;
+    top: 172px;
+}
+
+.bor{
+  position: relative;
+  background-color: #000;
+  width: 20px;
+  height: 2px;
+  bottom: 4px;
+}
+h1 {
+    margin: 0;
+}
+
+p{
+  font-family: Campton;
+  .contain {
+  background-color: #eeeeee;
+  margin: 50px;
+  position: relative;
+  height: 2000px;
+  transition: .2s ease;
+  animation: slideproject .5s cubic-bezier(1, 0.01, 0, 0.99);
+}
+
+
+@keyframes slideproject {
+
+  from{
+    width: 0px;
+  }
+
+  to{
+		width: 93%;
+  }
+
+}
+
+.trait{
+  width: 1px;
+  /* position: relative; */
+  height: 120px;
+  background-color: black;
+  margin-top: 391px;
+  margin-right: 89px;
+  transform: translateX(70px);
+}
+
+.title{
+	font-size: 100px;
+	font-family: Geomanist;
+	font-weight: bold;
+	margin: 0;
+	transform: translateY(133px);
+	margin-left: 204px;
+	z-index: 20;
+	color: #ff6937;
+}
+
+#titreP1{
+  position: absolute;
+  font-size: 80px;
+  font-family: Geomanist;
+  font-weight: bold;
+  left: -240px;
+  top: 51px;
+}
+
+.projet1{
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  animation: slidepojet 5s;
+}
+
+.presP1{
+  position: absolute;
+  top: 300px;
+  float: left;
+  left: 100px;
+  width: 400px;
+}
+
+.imgP1{
+  float: right;
+  position: relative;
+  width: 400px;
+  height: 500px;
+  background-color: red;
+  background-image: url(img/PRES-3D.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 100px;
+  animation: slideprojet 1s;
+  transition: .2s;
+}
+
+.imgP1:hover{
+  width: 500px;
+}
+
+
+@keyframes slideprojet{
+
+  from{
+    height: 0px;
+  }
+
+  to{
+		height: 500px;
+  }
+
+}
+
+
+
+
+
+.presentation{
+	background-color: #213ad6;
+	width: 100%;
+	margin-top: 0px;
+	height: 400px;
+	color: white;
+  transition: .5s ease;
+  animation: slideproject .6s cubic-bezier(1, 0.01, 0, 0.99);
+}
+
+
+.textpres{
+	width: 28%;
+	float: left;
+	transform: translateY(90px);
+	margin-left: 321px;
+}
+
+.img1{
+  /*background-color: #146048;
+
+  background-image: url(img/mito_brush_desktop.jpg);*/
+  background-image: url(img/wireframes1.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  width: 400px;
+  height: 552px;
+  margin-top: -73px;
+  float: right;
+  animation: slideimg 1.3s cubic-bezier(1, 0.01, 0, 0.99);
+}
+
+@keyframes slideimg {
+
+  from{
+    height: 0px;
+  }
+
+  to{
+    height: 552px;
+  }
+
+}
+.presentation2{
+	background-image: url(img/PRES-3D.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: -200px;
+	/* background-color: aqua; */
+	width: 100%;
+	height: 643px;
+}
+
+.titleP2{
+  position: absolute;;
+  font-size: 80px;
+  font-family: Geomanist;
+  font-weight: bold;
+  top: -50px;
+  left: 344px;
+}
+
+.projet2{
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  margin-top: 720px;
+}
+
+.presP2{
+  position: relative;
+  top: 300px;
+  float: right;
+  right: -780px;
+  width: 30%;
+}
+
+.imgP2{
+  float: right;
+  right: 620px;
+  position: relative;
+  width: 700px;
+  height: 300px;
+  background-color: red;
+  margin: 100px;
+}
+
+.titleP3{
+  position: relative;
+  font-size: 80px;
+  font-family: Geomanist;
+  font-weight: bold;
+  top: -678px;
+  left: 204px;
+}
+
+.projet3{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  margin-top: 1400px;
+}
+
+.presP3{
+  position: relative;
+  top: 300px;
+  float: right;
+  left: -61px;
+  width: 30%;
+}
+
+.imgP3{
+  float: left;
+  position: relative;
+  width: 186px;
+  height: 300px;
+  background-color: red;
+  margin: 100px;
+}
+.imgP3-2{
+  float: left;
+  position: relative;
+  width: 186px;
+  height: 300px;
+  left: 252px;
+  top: -95px;
+  background-color: red;
+  /* margin: 100px; */
+}
+.imgP3-3{
+  float: left;
+  position: relative;
+  width: 186px;
+  height: 571px;
+  left: 506px;
+  top: -416px;
+  background-color: red;
+  /* margin: 100px; */
+}
+
+.pandoratitle {
+    position: relative;
+    float: right;
+    right: 175px;
+    top: 172px;
+}
+
+.bor{
+  position: relative;
+  background-color: #000;
+  width: 20px;
+  height: 2px;
+  bottom: 4px;
+}
+
+
+p{
+  font-family: Campton;
+  line-height: 1.6;
+}
